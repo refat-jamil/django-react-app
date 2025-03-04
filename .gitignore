@@ -1,0 +1,64 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django environment files (keep secrets out of Git)
+*.env
+*.env.local
+.env
+.env.prod
+.env.dev
+
+# Django database files
+db.sqlite3
+*.sqlite3
+*.db
+
+# Django logs
+*.log
+
+# Static and media files (managed by collectstatic)
+staticfiles/
+media/
+
+# Migrations cache (keep actual migrations)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# System files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# VS Code & JetBrains IDE settings
+.vscode/
+.idea/
+
+# PostgreSQL database dumps
+*.dump
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# React build files
+frontend/build/
+frontend/dist/
+
+# Coverage reports
+coverage/
+*.coverage
+.coverage.*
+
+# Ignore compiled CSS if using SCSS or LESS
+frontend/src/**/*.css.map
+
+# Ignore ESLint & Prettier cache
+frontend/.eslintcache
+frontend/.prettiercache
